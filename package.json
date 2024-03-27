@@ -1,0 +1,46 @@
+{
+  "name": "edu-v-eu-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prettier": "prettier \"**/*.{ts,tsx,js,scss,css,html,md,mdx}\" --write"
+  },
+  "dependencies": {
+    "@nextui-org/react": "^2.2.9",
+    "framer-motion": "^10.18.0",
+    "lodash": "^4.17.21",
+    "next": "14.1.4",
+    "nodemailer": "^6.9.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-input-mask": "^2.0.4",
+    "react-scroll": "^1.8.9",
+    "sass": "^1.72.0",
+    "styled-components": "^5.3.8",
+    "swiper": "^11.0.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.10",
+    "@types/lodash": "^4.14.202",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/styled-components": "^5.1.26",
+    "autoprefixer": "^10.4.17",
+    "babel-loader": "^8.0.6",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.4",
+    "postcss": "^8.4.33",
+    "postcss-styled-syntax": "^0.5.0",
+    "prettier": "^3.2.5",
+    "sharp": "^0.32.1",
+    "stylelint": "^15.11.0",
+    "stylelint-config-standard": "^34.0.0",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5"
+  }
+}

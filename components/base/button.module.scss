@@ -1,0 +1,12 @@
+.button {
+    border: 2px solid #ad1519;
+    background-color: #ad1519;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+
+    &:hover {
+        background-color: #fabd00;
+        border: 2px solid #fabd00;
+    }
+}
